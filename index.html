@@ -1,0 +1,50 @@
+<html lang="en">
+<!--Page and Template by Alex Wilcken Pratt. Last updated 5 Oct 2016-->
+
+<head>
+    <link rel="shortcut icon" href="../../public_html/images/profile_picture_favicon.jpg" />
+    <title>Alex Wilcken Pratt</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="number_to_word.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Number to Word Checker!</h1>
+            <p>Enter a number below, and click the button to see what words come out! You just might find who called...</p>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-1">
+
+            </div>
+            <div class="col-xs-4 text-left">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Enter the number here" id="tb_number">
+                    <span class="input-group-btn">
+                      <button class="btn btn-default" type="button" onclick="checkNumber()">Check!</button>
+                    </span>
+                </div>
+            </div>
+            <div class="col-xs-3">
+                <h3 id="lbl_results">
+
+                </h3>
+            </div>
+            <div class="col-xs-3">
+                <h3 id="lbl_results_dictionary">
+
+                </h3>
+            </div>
+            <div class="col-xs-1">
+
+            </div>
+        </div>
+
+</body>
